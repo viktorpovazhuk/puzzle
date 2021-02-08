@@ -17,7 +17,7 @@ def validate_board(board: list) -> bool:
 def check_rows(board: list) -> bool:
     """
     Check if board has unique numbers in rows.
-    
+
     >>> check_rows(["**** ****", "***1 ****", "**  3****", "* 4 1****", \
     "     9 5 ", " 6  83  *", "311    **", "  2  ****"])
     False
@@ -35,7 +35,7 @@ def check_rows(board: list) -> bool:
 def check_cols(board: list) -> bool:
     """
     Check if board has unique numbers in columns.
-    
+
     >>> check_cols(["**** ****", "***1 ****", "**  3****", "* 4 1****", \
     "     9 5 ", " 6  83  *", "3  1   **", "  2  ****"])
     False
@@ -56,7 +56,7 @@ def check_cols(board: list) -> bool:
 def check_block(board: list) -> bool:
     """
     Check if board has unique numbers in color bloks.
-    
+
     >>> check_block(["**** ****", "***1 ****", "**  3****", "* 4 1****", \
     "     9 5 ", " 6  83  *", "36     **", "  2  ****"])
     False
